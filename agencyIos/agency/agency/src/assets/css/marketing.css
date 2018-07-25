@@ -1,0 +1,168 @@
+.landingPage-box{
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: auto ! important;
+  min-height: 100%;
+  background: #ed3d40;
+}
+.top-img-section{
+  width: 100%;
+  height: 2.25rem;
+}
+.top-img-section img{
+  width: 100%;
+  height: 100%;
+}
+.two-section{
+ margin-top: 0.19rem;
+}
+.two-section label i{
+  display: block;
+  background: url(../img/bg29.png) no-repeat center center;
+  background-size: 100% 100%; 
+  width: 0.14rem;
+  height: 0.22rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 0.22rem;
+  z-index: 5;
+}
+.two-section .identify_code_msg i{
+  display: block;
+  background: url(../img/bg69.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 0.19rem;
+  height: 0.14rem;
+  position: absolute;
+  top: 0.14rem;
+  left: 0.22rem;
+  z-index: 5;
+}
+.two-section label{
+  position: relative;
+  display: block;
+  padding-left: 0.59rem;
+  margin: 0 auto;
+  width: 2.19rem;
+  height: 0.42rem;
+  background: #fffcf3;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #afafaf;
+}
+.two-section label:nth-of-type(1){
+  margin-bottom: 0.19rem;
+}
+.two-section label input{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+}
+.two-section .info-msg{
+  display: none;
+}
+.two-section .info-msg div{
+  margin: 0.2rem auto 0;
+  padding: 0.02rem;
+  width: 2.74rem;
+  background: rgba(212,23,26,0.53);
+  border-radius: 10px;
+  line-height: 0.35rem;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.two-section .info-msg a{
+  display: block;
+  margin: 0.22rem auto 0.2rem;
+  background: url(../img/bg34.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 2.2rem;
+  height: 0.43rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+.get-redbask{
+  margin: 0.21rem auto 0.25rem;
+  width: 1.92rem;
+  height: 0.43rem;
+  background: #fbac03;
+  box-shadow: 0px 3px 0px 0px #fb8903;
+  border-radius: 20px;
+}
+.get-redbask a{
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 0.43rem;
+  text-align: center;
+}
+.get-redbask-state{
+  margin: 0 0.38rem 0 0.46rem;
+  font-size: 12px;
+  color: #fff;
+  line-height: 0.22rem;
+  text-align: center;
+}
+.get-redbask-state em{
+  font-size: 16px;
+  color: #fbcf03;
+}
+.identify_code_msg a{
+  position: absolute;
+  padding-top: 0.12rem;
+  padding-bottom: 0.12rem;
+  right: 0.1rem;
+  top: 0rem;
+}
+.identify_code_msg a span{
+  display: inline-block;
+  padding-left: 0.09rem;
+  font-size: 14px;
+  color: #fd484b;
+  border-left: 1px solid #afafaf;
+}
+.promt-message-section{
+  padding: 0rem 0 0.6rem 0;
+}
+.promt-message-section img{
+	width: 100%;
+	height: 100%;
+}
+.footer-message-section{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.52rem;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.footer-message-section p{
+  margin-left: 0.14rem;
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 0.52rem;
+}
+.footer-message-section div{
+  margin: 0.08rem 0.12rem 0 0;
+  float: right;
+  width: 0.85rem;
+  height: 0.36rem;
+  background: #ff4444;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 0.36rem;
+}
+.footer-message-section div a{
+  color: #fff;
+}

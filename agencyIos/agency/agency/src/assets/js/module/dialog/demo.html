@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>dialog test</title>
+    <link rel="stylesheet" href="http://fed.dev.cim120.cn/static/src/css/gallery/base/hmp_base.css"/>
+</head>
+<body>
+    <button class="dialog-confirm-test">confirm</button>
+    <button class="dialog-tip-test">tip</button>
+<script type="text/javascript" src="http://fed.dev.cim120.cn/static/src/js/gallery/require-jquery.js"></script>
+<script type="text/javascript" src="http://fed.dev.cim120.cn/static/src/js/gallery/require-config.js"></script>
+<script type="text/javascript">
+    require(['dialog'],function(dialog){
+        //confirm
+        $('.dialog-confirm-test').click(function(){
+            dialog.confirm({
+                overlay : 1,
+                dialogBody:'保存成功',
+                needCancelBtn: false,
+                onload : function(dialog,node){
+                    $('.pub-dialog-confirm').on('click',function(){
+                        alert('callback');
+                        dialog.close();
+                    })
+                },
+	            draggable : 1
+            });
+        })
+
+        $('.dialog-tip-test').click(function(){
+            // var tipCallback = function(){
+            //     alert('dialog auto close and callback');
+            // }
+            // dialog.tip({
+            //     overlay : 1,
+            //     autoClose : [2,tipCallback]
+            // });
+            dialog.tip({
+                overlay : 1,
+                dialogBody:'保存成功'
+            });
+        })
+
+        // Dialog.tip({
+        //     dialogBody:'确定将姜泽等20名用户从希盟健康管理平台中删除吗？'
+        // });
+    })
+</script>
+</body>
+</html>
