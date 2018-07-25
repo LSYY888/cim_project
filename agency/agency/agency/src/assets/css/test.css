@@ -1,0 +1,228 @@
+.friendSharePage{
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: url(../img/bg117.png) no-repeat center center;
+ background-size: 100% 100%;
+ width: 100%;
+ height: auto ! important;
+ min-height: 100%;
+}
+.friendSharePage-top{
+  height: 4.81rem;
+  width: 100%;
+}
+.friendSharePage-top .image-div{
+  width: 100%;
+  height: 2.64rem;
+}
+.friendSharePage-top img{
+  width: 100%;
+  height: 100%;
+}
+.friendSharePage-top .text-top{
+  position: relative;
+  top: -0.53rem;
+  background: url(//img.xmiles.cn/fanli-invite/inner_reaward_img_2.png) no-repeat center center;
+  background-size: 100% 100%;
+  height: 2.17rem;
+}
+.friendSharePage-top div p:nth-of-type(1){
+  position: absolute;
+  bottom: 0.6rem;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.friendSharePage-top div p:nth-of-type(2){
+  position: absolute;
+  bottom: 0.3rem;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.two-section{
+  margin-top: -0.5rem;
+}
+.two-section label i{
+  display: block;
+  background: url(../img/bg29.png) no-repeat center center;
+  background-size: 100% 100%; 
+  width: 0.14rem;
+  height: 0.22rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 0.22rem;
+  z-index: 5;
+}
+.two-section .identify_code_msg i{
+  display: block;
+  background: url(../img/bg69.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 0.19rem;
+  height: 0.14rem;
+  position: absolute;
+  top: 0.14rem;
+  left: 0.22rem;
+  z-index: 5;
+}
+.two-section label{
+  position: relative;
+  display: block;
+  padding-left: 0.59rem;
+  margin: 0.19rem auto 0;
+  width: 2.19rem;
+  height: 0.42rem;
+  background: #fffcf3;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #afafaf;
+}
+.two-section label input{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+}
+.two-section .info-msg{
+  display: none;
+}
+.two-section .info-msg div{
+  margin: 0.2rem auto 0;
+  padding: 0.02rem;
+  width: 2.74rem;
+  background: rgba(212,23,26,0.53);
+  border-radius: 10px;
+  line-height: 0.35rem;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.two-section .info-msg a{
+  display: block;
+  margin: 0.22rem auto 0.2rem;
+  background: url(../img/bg34.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 2.2rem;
+  height: 0.43rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+.get-redbask{
+  margin: 0.22rem auto 0.2rem;
+  background: url(../img/bg34.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 1.92rem;
+  height: 0.43rem
+}
+.get-redbask a{
+  display: block;
+  font-size: 16px;
+  color: #000;
+  line-height: 0.37rem;
+  text-align: center;
+}
+.get-redbask-state{
+  margin: 0 0.38rem 0 0.46rem;
+  font-size: 12px;
+  color: #fff;
+  line-height: 0.22rem;
+  text-align: center;
+}
+.get-redbask-state em{
+  font-size: 16px;
+  color: #fbcf03;
+}
+
+.two-content p{
+  margin: 0.13rem 0 0.18rem 0;
+  font-size: 16px;
+  color: #b06a32;
+  text-align: center;
+}
+.two-content ul li{
+  margin-bottom: 0.26rem;
+}
+.two-content ul li .left{
+  float: left;
+  font-weight: bold;
+}
+.two-content ul li .right{
+  float: right;
+  font-weight: bold;
+}
+.two-content ul li:nth-of-type(1) .left{
+  margin: 0.13rem 0.23rem 0 0.37rem;
+  background: url('../img/bg39.png') no-repeat center center; 
+  background-size: 100% 100%;
+  width: 0.27rem;
+  height: 0.27rem;
+}
+.two-content ul li:nth-of-type(1) .right{
+  width: 2.19rem;
+  font-size: 12px;
+  color: #b06a32;
+  line-height: 0.22rem
+}
+.two-content ul li:nth-of-type(2) .left{
+  margin-left: 0.23rem;
+  width: 2.05rem;
+  font-size: 12px;
+  color: #b06a32;
+  line-height: 0.22rem
+}
+.two-content ul li:nth-of-type(2) .right{
+  margin: 0.13rem 0.23rem 0 0.37rem;
+  background: url('../img/bg40.png') no-repeat center center; 
+  background-size: 100% 100%;
+  width: 0.27rem;
+  height: 0.27rem;
+}
+.two-content ul li:nth-of-type(3) .left{
+  margin: 0.13rem 0.23rem 0 0.37rem;
+  background: url('../img/bg41.png') no-repeat center center; 
+  background-size: 100% 100%;
+  width: 0.27rem;
+  height: 0.27rem;
+}
+.two-content ul li:nth-of-type(3) .right{
+  width: 2.19rem;
+  font-size: 12px;
+  color: #b06a32;
+  line-height: 0.22rem
+}
+.img-section{
+	position: relative;
+}
+.start-btn{
+  position: absolute;
+  bottom: 3%;
+  left: 0;	
+  width: 100%;
+  height: 0.47rem;
+  font-size: 16px;
+  color: #f95c16;
+  line-height: 0.47rem;
+  text-align: center;
+}
+
+.identify_code_msg a{
+  position: absolute;
+  padding-top: 0.12rem;
+  padding-bottom: 0.12rem;
+  right: 0.1rem;
+  top: 0rem;
+}
+.identify_code_msg a span{
+  display: inline-block;
+  padding-left: 0.09rem;
+  font-size: 14px;
+  color: #fd484b;
+  border-left: 1px solid #afafaf;
+}
