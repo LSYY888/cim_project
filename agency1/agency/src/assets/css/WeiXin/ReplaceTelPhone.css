@@ -1,0 +1,81 @@
+  .replace-telphone{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../../img/bg73.jpg) no-repeat center center;
+    width: 100%;
+    height:100%;
+    background-size: cover;
+  }
+  .replace-telphone .top-section{
+    width: 100%;
+  }
+  .replace-telphone .top-section .top-section-top{
+    width: 100%;
+    height: 0.37rem;
+  }
+  .replace-telphone .top-section .top-section-center{
+    width: 100%;
+    height: 2.1rem;
+  }
+  .replace-telphone .top-section .top-section-bottom{
+    width: 100%;
+    height: 0.94rem;
+  }
+  .replace-telphone .container-section{
+    margin-top: 0.7rem;
+  }
+  .replace-telphone .container-section-top{
+    margin: 0.1rem auto 0.14rem;
+    background: url(../../img/bg76.png) no-repeat center center;
+    width: 0.84rem;
+    height:0.16rem;
+    background-size: cover;
+  }
+  .replace-telphone .container-section-content ul li{
+    margin: 0 0.49rem 0.19rem 0.19rem;
+  }
+  .replace-telphone .container-section-content ul li label input{
+    display: block;
+    padding-left: 0.18rem;
+    background: url(../../img/bg66.png) no-repeat center center;
+    width: 98%;
+    height: 0.48rem;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #9f9d9d;
+    border: none;
+    outline: none;
+  }
+   .replace-telphone .container-section-content ul li:nth-of-type(2) label{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 0.48rem;
+  }
+  .btn-code{
+    position: absolute;
+    right: -0.1rem;
+    top: 0.02rem;
+    background: url(../../img/bg79.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 0.98rem;
+    height: 0.44rem;
+    z-index: 100;
+    font-size: 14px;
+    color: #fff;
+    line-height: 0.44rem;
+    text-align: center;
+  }
+  .replace-telphone .confirm-btn{
+    display: block;
+    background: url(../../img/bg67.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 0.48rem;
+    font-size: 14px;
+    color: #1a0a0a;
+    line-height: 0.44rem;
+    text-align: center;
+  }
